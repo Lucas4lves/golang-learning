@@ -23,6 +23,11 @@ func main() {
 
 	list.AddShoppingItem(watermelon)
 	list.AddShoppingItem(watermelon)
+	list.AddShoppingItem(models.ShoppingItem{
+		Name:  "Nintendo DS Lite",
+		Price: 155.00,
+		Brand: "Nintendo",
+	})
 
 	fmt.Println(list)
 	fmt.Println(list2)
