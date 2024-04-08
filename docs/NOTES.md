@@ -5,3 +5,8 @@
 
 ## Arrays and slices
  * are pretty cool and subtly different from each other;
+
+## Concurrency 
+
+* programs have memory and cpu available to run within a processor;
+* in a multicore scenario, tasks are ran in a parallel fashion;
